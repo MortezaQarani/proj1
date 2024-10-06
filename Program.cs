@@ -8,7 +8,7 @@ namespace ConsoleApp6
 {
     internal class Program
     {
-        public static void Add(int input1, int input2)
+        public static void Add(int input1=1, int input2=2)
         {
             Console.WriteLine(input1 + input2);
         }
